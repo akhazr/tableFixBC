@@ -145,6 +145,25 @@ details p { color: var(--muted); margin: 12px 0 0; }
 .form-status.err { color: #a33; }
 .quote-form button[disabled] { opacity: 0.7; cursor: wait; }
 
+/* Guides & city pages */
+.guide h1 { font-size: clamp(2rem, 4vw, 2.8rem); }
+.guide h2 { margin-top: 1.6em; font-size: 1.5rem; }
+.guide p, .guide li { color: #3b4542; }
+.guide ul { padding-left: 1.2em; }
+.guide li { margin: 6px 0; }
+.updated { color: var(--muted); font-size: 0.9rem; margin-top: -0.4em; }
+.answer { background: var(--sand); border-left: 4px solid var(--amber); padding: 16px 20px; border-radius: 10px; margin: 20px 0 8px; }
+.note { font-size: 0.9rem; color: var(--muted); margin-top: 24px; }
+.guide-cta { margin-top: 36px; padding: 24px; background: #fff; border: 1px solid rgba(31,58,52,0.1); border-radius: var(--radius); }
+.guide-cta p { margin-top: 0; }
+.guide-cards { grid-template-columns: repeat(2, 1fr); }
+.guide-cards h3 { margin-bottom: 0.3em; }
+.city-cards { grid-template-columns: repeat(3, 1fr); }
+.guide-link { font-weight: 500; }
+.area-list a { color: inherit; text-decoration: none; }
+.area-list li:has(a) { border-color: var(--amber); }
+.other-areas { padding: 24px 0 40px; color: var(--muted); }
+
 /* Footer */
 .site-footer { background: #162a26; color: #c9d3cf; padding: 36px 0; font-size: 0.92rem; }
 .footer-grid { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; }
@@ -216,7 +235,7 @@ details p { color: var(--muted); margin: 12px 0 0; }
   .nav-links.open { display: flex; }
   .section { padding: 64px 0; }
   .hero { padding: 40px 0 64px; }
-  .cards, .steps, .quote-form { grid-template-columns: 1fr; }
+  .cards, .steps, .quote-form, .guide-cards, .city-cards { grid-template-columns: 1fr; }
   .hero-visual .todo { left: auto; right: -6px; bottom: -22px; width: 62%; padding: 12px 14px; }
   .hero-visual .todo li { font-size: 0.78rem; padding: 4px 0 4px 24px; }
   .hero-visual .todo li::before { top: 5px; width: 15px; height: 15px; }
