@@ -346,7 +346,7 @@
           <div>
             <p class="eyebrow">Free quote</p>
             <h2>Tell us what needs fixing</h2>
-            <p>Fill this in and your email app will open with the details ready to send. Prefer email? Write to
+            <p>Send us the details and we'll get back to you with a written quote. Prefer email? Write to
               <a href="mailto:fixcraftbc@gmail.com">fixcraftbc@gmail.com</a>.</p>
           </div>
           <form id="quote-form" class="quote-form">
@@ -365,7 +365,9 @@
               </select>
             </label>
             <label class="full">Describe the job<textarea name="details" rows="4" required placeholder="What needs doing, rough sizes, timing…"></textarea></label>
+            <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
             <button class="btn full" type="submit">Send quote request</button>
+            <p class="form-status full" role="status" aria-live="polite"></p>
           </form>
         </div>
       </section>
