@@ -17,7 +17,8 @@ document.getElementById("year").textContent = new Date().getFullYear();
 
 // Quote form -> opens the visitor's email app with the details filled in
 const QUOTE_EMAIL = "fixcraftbc@gmail.com";
-document.getElementById("quote-form").addEventListener("submit", (e) => {
+const quoteForm = document.getElementById("quote-form");
+if (quoteForm) quoteForm.addEventListener("submit", (e) => {
   e.preventDefault();
   const d = new FormData(e.target);
   const subject = `Quote request: ${d.get("type")} – ${d.get("name")}`;
