@@ -1,0 +1,13 @@
+{
+  "name": "FixCraft BC",
+  "short_name": "FixCraft BC",
+  "description": "Handyman, painting and small renovations in Metro Vancouver.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#fbf6ec",
+  "theme_color": "#1f3a34",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
